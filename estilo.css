@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #27282C;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #043C6C;
+    /*position: fixed;*/
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+nav {
+    position: sticky;
+    /*display: flex;*/
+    justify-content: space-between;
+    padding: 0;
+    margin-right: auto;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/*adfaf*/
+nav ul li {
+    display: inline;
+}
+a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+a:hover {
+    color: orange;
+}
+#port {
+    padding-right: 0;
+    background-image: url("Critica-La-Sociedad-de-la-Nieve1.jpg");
+    width: 99vw;
+    height: 80vw;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    transition: background-color 0.3s ease;
+}
+nav:hover, nav:focus, #rell:focus {
+    background-color:#44a4ac;
+}
+main {
+    margin-top: -100px;
+}
+section {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #27282C;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-margin-top: 50px;
+}
+#hol {
+    background-image: url("Critica-La-Sociedad-de-la-Nieve.jpg");
+    background-size: cover;
+
+}
+h2 {
+    color: white;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 200px;
+    text-align: right;
+    margin-right: 100px;
+    font-size: 48pt;
+}
+h3 {
+    font-size: 20pt;
+    color: #CD7E53;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#e1 {
+    display: flex;
+}
+#e1 div {
+    padding: 10px;
+}
+.e1img {
+
+}
+.e1img img {
+    width: 700px;
+    margin-right: -200px;
+}
+#e2 {
+    background-color: #2F3354;
+}
+.e2img {
+    text-align: center;
+}
+#e3 div img {
+    width: 700px;
+}
+#e3 {
+    display: flex;
+}
+#e3 div {
+    padding: 10px;
+    justify-content: space-between;
+}
+#e3 div img {
+    width: 700px;
+}
+.e3img {
+    margin-left: -100px;
+}
+#e4 {
+    display: flex;
+    margin-left: -100px;
+    background-color: #504532;
+}
+#e4 div {
+    padding: 10px;
+}
+#e4 div img {
+    width: 700px;
+    margin-right: -200px;
+    padding-top: 100px;
+}
+#e5 {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#e5 h3 {
+    text-align: center;
+}
+#e5 p {
+    text-align: justify;
+}
+#e7 {
+    background-image: url("img/la-sociedad-de-la-nieve-650abe3494125.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#e7 div p {
+    color: black;
+}
+.e6img {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-between;
+}
+footer div{
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.copyright {
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: "Times New Roman";
+    padding: 30px;
+
+
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+}
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
