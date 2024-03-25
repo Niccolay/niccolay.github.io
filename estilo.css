@@ -58,9 +58,9 @@ a:hover {
 }
 #port {
     padding-right: 0;
-    background-image: url("Critica-La-Sociedad-de-la-Nieve1.jpg");
+    background-image: url("FF-PELICULA-LA-SOCIEDAD-DE-LA-NIEVE-WEB-1920x520.jpg");
     width: 99vw;
-    height: 80vw;
+    height: 40vw;
     background-size:contain;
     background-repeat: no-repeat;
 }
@@ -97,7 +97,7 @@ h2 {
     padding-top: 200px;
     text-align: right;
     margin-right: 100px;
-    font-size: 48pt;
+    font-size: 3em;
 }
 h3 {
     font-size: 20pt;
@@ -199,16 +199,36 @@ footer div{
 }
 
 
-.video-container {
+.video {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* Proporción 16:9 */
+    padding-bottom: 56.25%;
+    text-align: center;
 }
-.video-container iframe {
+.video iframe {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+}
+#video {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#galeria {
+    padding: 16px;
+}
+#galeria h3 {
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.galeria img {
+    width: 300px;
+    height: 300px;
 }
